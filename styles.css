@@ -85,6 +85,12 @@ button:hover {
 .todo-text {
   margin: 0;
   word-break: break-word;
+  cursor: pointer;
+}
+
+.todo-text.completed {
+  color: #6b7280;
+  text-decoration: line-through;
 }
 
 .delete-button {

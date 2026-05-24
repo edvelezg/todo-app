@@ -31,6 +31,10 @@ function addTodoItem(text) {
     item.remove();
   });
 
+  label.addEventListener('click', () => {
+    label.classList.toggle('completed');
+  });
+
   item.append(label, deleteButton);
   todoList.appendChild(item);
 }
